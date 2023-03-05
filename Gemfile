@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rack', '~> 1.4.1'
+gem 'rack', '~> 2.1.4'
 gem 'grape', '~> 0.8.0'
 gem 'grape-entity', '~> 0.4.2'
 gem 'json', '~> 1.7.7'
