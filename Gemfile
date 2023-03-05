@@ -8,7 +8,7 @@ gem 'newrelic_rpm', '~> 3.5.4.34'
 gem 'newrelic-grape', '~> 1.1.0'
 gem 'rack-cors', '~> 0.2.8'
 gem 'grape-swagger', '~> 0.7.2'
-gem 'nokogiri', '~> 1.6.1'
+gem 'nokogiri', '~> 1.13.10'
 gem 'zip', '~> 2.0.2'
 gem 'mime-types'
 
