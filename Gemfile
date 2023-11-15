@@ -8,7 +8,7 @@ gem 'newrelic_rpm', '~> 3.5.4.34'
 gem 'newrelic-grape', '~> 1.1.0'
 gem 'rack-cors', '~> 0.2.8'
 gem 'grape-swagger', '~> 0.7.2'
-gem 'nokogiri', '~> 1.6.1'
+gem 'nokogiri', '~> 1.11.4'
 gem 'zip', '~> 2.0.2'
 gem 'mime-types'
 
@@ -23,7 +23,7 @@ end
 group :test do
   gem 'rspec', '~> 2.13.0'
   gem 'rack-test', '~> 0.6.2'
-  gem 'capybara', '2.1.0'
+  gem 'capybara', '2.2.0'
   gem 'selenium-webdriver', '2.32.1'
 end
 
