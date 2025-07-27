@@ -8,22 +8,22 @@ gem 'newrelic_rpm', '~> 3.5.4.34'
 gem 'newrelic-grape', '~> 1.1.0'
 gem 'rack-cors', '~> 0.2.8'
 gem 'grape-swagger', '~> 0.7.2'
-gem 'nokogiri', '~> 1.6.1'
+gem 'nokogiri', '~> 1.18.9'
 gem 'zip', '~> 2.0.2'
 gem 'mime-types'
 
 group :development do
   gem 'rake', '~> 10.0.3'
-  gem 'guard', '~> 1.6.1'
-  gem 'guard-bundler', '~> 1.0.0'
-  gem 'guard-rack', '~> 1.2.2'
+  gem 'guard', '~> 1.7.0'
+  gem 'guard-bundler', '~> 2.0.0'
+  gem 'guard-rack', '~> 1.3.0'
   gem 'rubocop', '0.24.1'
 end
 
 group :test do
   gem 'rspec', '~> 2.13.0'
   gem 'rack-test', '~> 0.6.2'
-  gem 'capybara', '2.1.0'
+  gem 'capybara', '2.2.0'
   gem 'selenium-webdriver', '2.32.1'
 end
 
